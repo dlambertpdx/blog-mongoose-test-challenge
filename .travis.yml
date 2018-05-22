@@ -1,4 +1,11 @@
 language: node_js
 node_js: node
-services: 
+services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: KyI2W4eG+M5ZJdDoWGUe0I8BhXVaSQU7AOc0YWE0TuR4rmidHxbhH5c0li4G4cyyHPK/6Z0p/NUd3LlOldq9sasSJRmPmphbO7kYp1ivJTgTAmPyRMyD4ANUGOZFub4BRy1pr32hkxoWQ3VcwRNOTF7/nY1wJI5QpoiN84NEAdzwqE7bMyJRPZ6jHMHHci3mjBAgxQXg/5l41cU7F0t9tD4DdkpiN9tYpfVtHVObuk62EkD+0O4rR0iSGWQRHWf8lQOqGw6xocPeM/PfZcpB1se4s7r0A+aknf+ugwz8sKAfs0CcmLWjeo9PHbPGpOxYcLD8GGZq92FIq+WXNfFO5rleZQ1NuE7Xe9ud216uPEyXghcgvgUPboMUTnK5BpwBimtk1aN5pMlM9zb9rHngsGWlX9MSptxcdaqzCJCQUgspGVrbWwr8hfz4i/3wlI23dg4koGfAzdJE8nA6ggtWC7TjnY5H5EzcaKNTiR+jlTqvDXsdRM6V+VzoK47X9bs/0G4phnvYI1/3bqIOpvNKMFieCT8VBNxZtSIQjNiIklfr3qvkDkrBieFHkJKg+Ngo+oHqWydp8FjYCi3jighQ06KAqnax9Ic9kqSa/BYpZuZ963AuplnsjrqAmKGWouCCZFMly7P7pa4+jfH6SCnbnwAWIDX72oUhQ8s2BkT+OcM=
+  app: intense-wildwood-67705
+  on:
+    repo: sanvean74/blog-mongoose-test-challenge

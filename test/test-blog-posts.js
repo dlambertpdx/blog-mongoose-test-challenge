@@ -24,7 +24,7 @@ function tearDownDb() {
 function seedBlogPostData() {
     console.log('Seeding post data');
     const seedData = [];
-    for(i = 1; i <= 10; i++) {
+    for(let i = 1; i <= 10; i++) {
         seedData.push({
             author: {
                 firstName: faker.name.firstName,
